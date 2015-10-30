@@ -1,4 +1,5 @@
 (function(){
+    var doc = context.document;
     var path = NSBezierPath.bezierPath();
     path.moveToPoint(NSMakePoint(10,10));
     path.lineToPoint(NSMakePoint(100,10));
